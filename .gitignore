@@ -6,3 +6,5 @@
 /RabbitMQTurtorial/.vs/RabbitMQTurtorial/v16
 /.vs
 /RabbitMQTurtorial/RabbitMQ.Producer/obj
+/RabbitMQTurtorial/RabbitMQ.Producer/bin/Debug/netcoreapp3.1
+/RabbitMQTurtorial/RabbitMQ.Consumer/bin/Debug/netcoreapp3.1
