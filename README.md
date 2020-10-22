@@ -48,8 +48,24 @@ Give administrator privileges : rabbitmqctl.bat set_user_tags user1
 
 See branch "Step1" -> https://github.com/matijakatadzic/MicroServiceWithRabbitMQ/commit/b01e4b2d4b8d49abf93d883bfb399fd96d6d1fc7
 
-Add Consumer and Producer project
+Add Consumer(MicroService 1) and Producer(MicroService 2) new empty project
 
 
 #STEP 2:
 ---------
+
+Add consumer logic and Nuget package
+
+Add Consumer queue -> SomeQueue1
+
+#STEP 3:
+---------
+
+Add producer logic and Nuget package
+
+Add producer Exchange -> SomeExchangeName.SomeTopic
+
+Add one more Consumer(MicroService 3) with queue -> SomeQueue2
+
+Add shared project with models
+
