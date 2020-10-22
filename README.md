@@ -30,3 +30,5 @@ Add new user : rabbitmqctl.bat add_user user1 pass1
 Give administrator privileges : rabbitmqctl.bat set_user_tags user1
 
 #STEP 1:
+
+Add Consumer and Producer project
