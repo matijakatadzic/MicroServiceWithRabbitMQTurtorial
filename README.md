@@ -1,6 +1,6 @@
 # MicroServiceWithRabbitMQ
 
-STEP 0:
+#STEP 0:
 
 - check Erlang compatability with RabbitMQ
 
@@ -29,4 +29,4 @@ Add new user : rabbitmqctl.bat add_user user1 pass1
 
 Give administrator privileges : rabbitmqctl.bat set_user_tags user1
 
-STEP 1:
+#STEP 1:
