@@ -8,6 +8,7 @@ Check Erlang compatability with RabbitMQ -> https://www.rabbitmq.com/which-erlan
 ** Installtion
 
 Download & Install Erlang -> https://www.erlang.org/downloads
+
 Download & Install Rabbit_MQ -> https://www.rabbitmq.com/download.html
 
 
