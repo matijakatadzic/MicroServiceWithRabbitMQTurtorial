@@ -1,16 +1,17 @@
 # MicroServiceWithRabbitMQ
 
 #STEP 0:
+---------
 
-- check Erlang compatability with RabbitMQ
+Check Erlang compatability with RabbitMQ -> https://www.rabbitmq.com/which-erlang.html
 
 ** Installtion
 
-Install Erlang
-Install Rabbit_MQ
-Set system variables
+Download & Install Erlang -> https://www.erlang.org/downloads
+Download & Install Rabbit_MQ -> https://www.rabbitmq.com/download.html
 
-Set Environment variable-
+
+Set Environment variable
 ---------------------------
 RABBITMQ_BASE c:\RabbitMQ Server
 ERLANG_HOME C:\Program Files\erl10.7
@@ -33,11 +34,13 @@ List users : rabbitmqctl.bat list_users
 Add new user : rabbitmqctl.bat add_user user1 pass1
 
 Give administrator privileges : rabbitmqctl.bat set_user_tags user1
---------------------------------------------------------------------
-#STEP 1:
 
+#STEP 1:
+---------
 See branch "Step1" -> https://github.com/matijakatadzic/MicroServiceWithRabbitMQ/commit/b01e4b2d4b8d49abf93d883bfb399fd96d6d1fc7
+
 Add Consumer and Producer project
 
 
 #STEP 2:
+---------
