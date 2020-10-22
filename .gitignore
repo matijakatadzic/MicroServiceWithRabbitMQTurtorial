@@ -8,3 +8,7 @@
 /RabbitMQTurtorial/RabbitMQ.Producer/obj
 /RabbitMQTurtorial/RabbitMQ.Producer/bin/Debug/netcoreapp3.1
 /RabbitMQTurtorial/RabbitMQ.Consumer/bin/Debug/netcoreapp3.1
+/RabbitMQTurtorial/RabbitMQ.Models/obj
+/RabbitMQTurtorial/RabbitMQ.Models/bin/Debug/netstandard2.0
+/RabbitMQTurtorial/RabbitMQ.Consumer1/obj
+/RabbitMQTurtorial/RabbitMQ.Consumer1/bin/Debug/netcoreapp3.1

@@ -4,9 +4,8 @@ using RabbitMQ.Client.Events;
 using RabbitMQ.Models;
 using System;
 using System.Text;
-using System.Threading;
 
-namespace RabbitMQ.Consumer
+namespace RabbitMQ.Consumer1
 {
     class Program
     {
@@ -16,7 +15,7 @@ namespace RabbitMQ.Consumer
             using (var connection = factory.CreateConnection())
             using (var channel = connection.CreateModel())
             {
-                channel.QueueDeclare(queue: "SomeQueue1",
+                channel.QueueDeclare(queue: "SomeQueue2",
                                      durable: true,
                                      exclusive: false,
                                      autoDelete: false,
@@ -30,7 +29,7 @@ namespace RabbitMQ.Consumer
                     Worker worker = JsonConvert.DeserializeObject<Worker>(message);
                     Console.WriteLine($"WorkerName: {worker.NameSurname}{Environment.NewLine}WorkerDescritpion: {worker.WorkDescription}");
                 };
-                channel.BasicConsume(queue: "SomeQueue1",
+                channel.BasicConsume(queue: "SomeQueue2",
                                      autoAck: true,
                                      consumer: consumer);
 
