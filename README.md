@@ -31,4 +31,8 @@ Give administrator privileges : rabbitmqctl.bat set_user_tags user1
 
 #STEP 1:
 
+See branch "Step1" -> https://github.com/matijakatadzic/MicroServiceWithRabbitMQ/commit/b01e4b2d4b8d49abf93d883bfb399fd96d6d1fc7
 Add Consumer and Producer project
+
+
+#STEP 2:
