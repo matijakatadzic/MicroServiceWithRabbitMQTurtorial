@@ -11,6 +11,7 @@ namespace RabbitMQ.Producer
     {
         static void Main(string[] args)
         {
+            Console.WriteLine($"Producer working");
             PublishMsgToSomeQueue1();
             PublishMsgToSomeQueue2();
 
@@ -20,6 +21,7 @@ namespace RabbitMQ.Producer
 
         private static void PublishMsgToSomeQueue1()
         {
+            Console.WriteLine($"Producer publish msg to Consumer 1");
             var factory = new ConnectionFactory() { HostName = "localhost" };
             using (var connection = factory.CreateConnection())
             using (var channel = connection.CreateModel())
@@ -42,6 +44,7 @@ namespace RabbitMQ.Producer
         }
         private static void PublishMsgToSomeQueue2()
         {
+            Console.WriteLine($"Producer publish msg to Consumer 2");
             var factory = new ConnectionFactory() { HostName = "localhost" };
             using (var connection = factory.CreateConnection())
             using (var channel = connection.CreateModel())

@@ -12,6 +12,7 @@ namespace RabbitMQ.Consumer
     {
         static void Main(string[] args)
         {
+            Console.WriteLine($"Consumer 1 working");
             var factory = new ConnectionFactory() { HostName = "localhost" };
             using (var connection = factory.CreateConnection())
             using (var channel = connection.CreateModel())
